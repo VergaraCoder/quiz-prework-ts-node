@@ -21,13 +21,18 @@ Programación Orientada a Objetos (OOP):
 Eventos en JavaScript:
 
 ¿Cómo se agrega un evento de clic a un botón en JavaScript?
-Variables y Tipos de Datos:
 
   Se debe seleccionar el elemento y luego aplicar un addEventListener("click")
   const elemento=document.querySelector(".button");
   elemento.addEventListener("click",()=>{});
+  o
+  tambien se puede hacer algo parecido a un evento de click aunque estariamos llamanod a una funcion o algo simple como un alert 
+
+  <button onclick="miFuncion()">Presioname</button>
+  <button onclick="alert()">Presioname2</button>
   
 
+Variables y Tipos de Datos:
 Explica las diferencias entre var, let, y const en JavaScript.
 
 const--> variables que son fijas (osea no se puede cambiar su valor)
